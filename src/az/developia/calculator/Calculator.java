@@ -47,25 +47,25 @@ public class Calculator {
         return result;
     }
 
-    private int add() {
+    public int add() {
         return this.a + this.b;
     }
 
-    private int subtract(){
+    public int subtract(){
         return this.a - this.b;
     }
 
-    private int muliply(){
+    public int muliply(){
         return this.a * this.b;
     }
-    private int divide(){
+    public int divide(){
         if (this.b ==0){
             throw new RuntimeException("This operation is wrong");
         }
         return this.a / this.b;
     }
 
-    private int remainder(){
+    public int remainder(){
         if (this.b ==0){
             throw new RuntimeException("This operation is wrong");
         }
